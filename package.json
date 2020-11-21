@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "postcss src/css/app.css -o public/app.css",
-    "build": ""
+    "build": "NODE_ENV=production npx tailwindcss-cli@latest build src/css/app.css -o public/app.css"
   },
   "dependencies": {
     "autoprefixer": "^10.0.2",

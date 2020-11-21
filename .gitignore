@@ -1,0 +1,6 @@
+._*
+.DS_Store
+/.history/
+/node_modules/
+/public/global.css
+/public/global.css.map
