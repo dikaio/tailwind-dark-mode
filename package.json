@@ -9,7 +9,7 @@
     "build": "NODE_ENV=production npx tailwindcss-cli@latest build src/css/app.css -o public/app.css"
   },
   "dependencies": {
-    "autoprefixer": "^10.0.2",
+    "autoprefixer": "^10.0.3",
     "postcss": "^8.1.8",
     "tailwindcss": "^2.0.1"
   },

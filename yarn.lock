@@ -158,16 +158,16 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@^10.0.2:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.0.2.tgz#a79f9a02bfb95c621998776ac0d85f8f855b367e"
-  integrity sha512-okBmu9OMdt6DNEcZmnl0IYVv8Xl/xYWRSnc2OJ9UJEOt1u30opG1B8aLsViqKryBaYv1SKB4f85fOGZs5zYxHQ==
+autoprefixer@^10.0.3:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.1.0.tgz#b19fd8524edef8c85c9db3bdb0c998de84e172fb"
+  integrity sha512-0/lBNwN+ZUnb5su18NZo5MBIjDaq6boQKZcxwy86Gip/CmXA2zZqUoFQLCNAGI5P25ZWSP2RWdhDJ8osfKEjoQ==
   dependencies:
-    browserslist "^4.14.7"
-    caniuse-lite "^1.0.30001157"
+    browserslist "^4.15.0"
+    caniuse-lite "^1.0.30001165"
     colorette "^1.2.1"
+    fraction.js "^4.0.12"
     normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
     postcss-value-parser "^4.1.0"
 
 balanced-match@^1.0.0:
@@ -208,16 +208,16 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.14.7:
-  version "4.14.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.7.tgz#c071c1b3622c1c2e790799a37bb09473a4351cb6"
-  integrity sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ==
+browserslist@^4.15.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.0.tgz#410277627500be3cb28a1bfe037586fbedf9488b"
+  integrity sha512-/j6k8R0p3nxOC6kx5JGAxsnhc9ixaWJfYc+TNTzxg6+ARaESAvQGV7h0uNOB4t+pLQJZWzcrMxXOxjgsCj3dqQ==
   dependencies:
-    caniuse-lite "^1.0.30001157"
+    caniuse-lite "^1.0.30001165"
     colorette "^1.2.1"
-    electron-to-chromium "^1.3.591"
+    electron-to-chromium "^1.3.621"
     escalade "^3.1.1"
-    node-releases "^1.1.66"
+    node-releases "^1.1.67"
 
 bytes@3.0.0:
   version "3.0.0"
@@ -244,10 +244,10 @@ camelcase@^4.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
-caniuse-lite@^1.0.30001157:
-  version "1.0.30001159"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001159.tgz#bebde28f893fa9594dadcaa7d6b8e2aa0299df20"
-  integrity sha512-w9Ph56jOsS8RL20K9cLND3u/+5WASWdhC/PPrf+V3/HsM3uHOavWOR1Xzakbv4Puo/srmPHudkmCRWM7Aq+/UA==
+caniuse-lite@^1.0.30001165:
+  version "1.0.30001168"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001168.tgz#6fcd098c139d003b9bd484cbb9ca26cb89907f9a"
+  integrity sha512-P2zmX7swIXKu+GMMR01TWa4csIKELTNnZKc+f1CjebmZJQtTAEXmpQSoKVJVVcvPGAA0TEYTOUp3VehavZSFPQ==
 
 chalk@2.4.1:
   version "2.4.1"
@@ -465,10 +465,10 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-electron-to-chromium@^1.3.591:
-  version "1.3.603"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.603.tgz#1b71bec27fb940eccd79245f6824c63d5f7e8abf"
-  integrity sha512-J8OHxOeJkoSLgBXfV9BHgKccgfLMHh+CoeRo6wJsi6m0k3otaxS/5vrHpMNSEYY4MISwewqanPOuhAtuE8riQQ==
+electron-to-chromium@^1.3.621:
+  version "1.3.629"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.629.tgz#a08d13b64d90e3c77ec5b9bffa3efbc5b4a00969"
+  integrity sha512-iSPPJtPvHrMAvYOt+9cdbDmTasPqwnwz4lkP8Dn200gDNUBQOLQ96xUsWXBwXslAo5XxdoXAoQQ3RAy4uao9IQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -560,6 +560,11 @@ fill-range@^7.0.1:
   integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
   dependencies:
     to-regex-range "^5.0.1"
+
+fraction.js@^4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.0.12.tgz#0526d47c65a5fb4854df78bc77f7bec708d7b8c3"
+  integrity sha512-8Z1K0VTG4hzYY7kA/1sj4/r1/RWLBD3xwReT/RCrUCbzPszjNQCCsy3ktkU/eaEqX3MYa4pY37a52eiBlPMlhA==
 
 fs-extra@^9.0.0, fs-extra@^9.0.1:
   version "9.0.1"
@@ -950,7 +955,7 @@ node-emoji@^1.8.1:
   dependencies:
     lodash.toarray "^4.4.0"
 
-node-releases@^1.1.66:
+node-releases@^1.1.67:
   version "1.1.67"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.67.tgz#28ebfcccd0baa6aad8e8d4d8fe4cbc49ae239c12"
   integrity sha512-V5QF9noGFl3EymEwUYzO+3NTDpGfQB4ve6Qfnzf3UNydMhjQRVPR1DZTuvWiLzaFJYw2fmDwAfnRNEVb64hSIg==
@@ -971,11 +976,6 @@ npm-run-path@^2.0.0:
   integrity sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
   dependencies:
     path-key "^2.0.0"
-
-num2fraction@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
-  integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
 object-assign@^4.1.1:
   version "4.1.1"
